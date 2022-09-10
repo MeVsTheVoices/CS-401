@@ -1,0 +1,25 @@
+CS 401 Fall 2022 – homework 2
+
+due: September 9, 11:59pm via Canvas
+
+After doing this assignment, you should be able to:
+
+write basic unit tests in JUnit
+design test cases that will fail independently
+The requirements for the assignment:
+
+Define test cases for each of the find operations in 3b of hw1 – finding by type, growing zone, and common name
+Assume the add function works
+Include two test cases for each operation, one where there is at least one result, one where no results are found
+Set up the list to include enough plants so that no case should return all of the plants
+Define 2 unit tests for a find operation for the scientific name. This one will be a bit different from the common name search:
+The search term has to be exactly two words (so there is whitespace in the middle of the string)
+The search matches if each word is a prefix of the corresponding word in the database. Ex: a search term of “S semper” or “seq S” will match “Sequoia sempervirens”, but “equoia sempervirens” would not
+Write code to cover these cases so they pass. [One common error people make when they start with unit tests is to write tests that you know will fail. You want to get all the test cases to pass.]
+To submit, attach both your unit test files and your source files for the plant database – include those files even if you didn’t make changes. This will make it easier for me to run your test cases in case you used different class or method names.
+Grading:
+
+Test cases and additional code to get cases to pass 80% (40% for #1, 40% for #2 and 3)
+
+Style 20% comments, naming. A simple explanation of the purpose of each test case is sufficient for comments. Give the test functions and test classes meaningful names. “Test1” is not a meaningful name, for example, but “findTrees” would be.
+
