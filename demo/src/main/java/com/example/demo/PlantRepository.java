@@ -11,6 +11,10 @@ public interface PlantRepository extends CrudRepository<Plant, Long> {
 	List<Plant> findByTypeOfPlant(String typeOfPlant);
 	List<Plant> findByMinimumGrowingZone(int minimumGrowingZone);
 	List<Plant> findByMaximumGrowingZone(int maximumGrowingZone);
+	//these two function are implemented by spring and are here to allow us to
+	//find plants that have a maximum growing zone greater than or equal to a zone
+	//and plants that have a minimum growing zone less than or equal to a zone
+	//by combining the two, we can find plants that would grow in a particular zone
 	List<Plant> findByMaximumGrowingZoneGreaterThanEqual(int maximumGrowingZone);
 	List<Plant> findByMinimumGrowingZoneLessThanEqual(int minimumGrowingZone);
 	
