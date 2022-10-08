@@ -1,0 +1,37 @@
+2022-10-07 17:46:09.211  INFO 20808 --- [           main] com.example.demo.DemoApplication         : Plants found with findAll():
+2022-10-07 17:46:09.211  INFO 20808 --- [           main] com.example.demo.DemoApplication         : -------------------------------
+2022-10-07 17:46:09.289  INFO 20808 --- [           main] com.example.demo.DemoApplication         : Plant[id=1, commonName='Coastal redwood', scientificName='Sequoia sempervirens', typeOfPlant='Tree', minimumGrowingZone='7', maximumGrowingZone='9']
+2022-10-07 17:46:09.289  INFO 20808 --- [           main] com.example.demo.DemoApplication         : Plant[id=2, commonName='Salvia divinorum', scientificName='Salvia divinorum', typeOfPlant='Perennial', minimumGrowingZone='5', maximumGrowingZone='9']
+2022-10-07 17:46:09.291  INFO 20808 --- [           main] com.example.demo.DemoApplication         : Plant[id=3, commonName='Buddleja', scientificName='Buddleja americana', typeOfPlant='Perennial', minimumGrowingZone='5', maximumGrowingZone='10']
+2022-10-07 17:46:09.291  INFO 20808 --- [           main] com.example.demo.DemoApplication         :
+2022-10-07 17:46:09.299  INFO 20808 --- [           main] com.example.demo.DemoApplication         : Plants found with findById(1L):
+2022-10-07 17:46:09.299  INFO 20808 --- [           main] com.example.demo.DemoApplication         : --------------------------------
+2022-10-07 17:46:09.299  INFO 20808 --- [           main] com.example.demo.DemoApplication         : Plant[id=1, commonName='Coastal redwood', scientificName='Sequoia sempervirens', typeOfPlant='Tree', minimumGrowingZone='7', maximumGrowingZone='9']
+2022-10-07 17:46:09.300  INFO 20808 --- [           main] com.example.demo.DemoApplication         :
+2022-10-07 17:46:09.300  INFO 20808 --- [           main] com.example.demo.DemoApplication         : Plants found with findByCommonName('Coastal redwood'):
+2022-10-07 17:46:09.301  INFO 20808 --- [           main] com.example.demo.DemoApplication         : --------------------------------------------
+2022-10-07 17:46:09.324  INFO 20808 --- [           main] com.example.demo.DemoApplication         : Plant[id=1, commonName='Coastal redwood', scientificName='Sequoia sempervirens', typeOfPlant='Tree', minimumGrowingZone='7', maximumGrowingZone='9']
+2022-10-07 17:46:09.325  INFO 20808 --- [           main] com.example.demo.DemoApplication         :
+2022-10-07 17:46:09.326  INFO 20808 --- [           main] com.example.demo.DemoApplication         : Plants found with findByScientificName('Salvia divinorum'):
+2022-10-07 17:46:09.326  INFO 20808 --- [           main] com.example.demo.DemoApplication         : --------------------------------------------
+2022-10-07 17:46:09.330  INFO 20808 --- [           main] com.example.demo.DemoApplication         : Plant[id=2, commonName='Salvia divinorum', scientificName='Salvia divinorum', typeOfPlant='Perennial', minimumGrowingZone='5', maximumGrowingZone='9']
+2022-10-07 17:46:09.330  INFO 20808 --- [           main] com.example.demo.DemoApplication         :
+2022-10-07 17:46:09.330  INFO 20808 --- [           main] com.example.demo.DemoApplication         : Plants found with findByTypeOfPlant('Perennial'):
+2022-10-07 17:46:09.331  INFO 20808 --- [           main] com.example.demo.DemoApplication         : --------------------------------------------
+2022-10-07 17:46:09.334  INFO 20808 --- [           main] com.example.demo.DemoApplication         : Plant[id=2, commonName='Salvia divinorum', scientificName='Salvia divinorum', typeOfPlant='Perennial', minimumGrowingZone='5', maximumGrowingZone='9']
+2022-10-07 17:46:09.334  INFO 20808 --- [           main] com.example.demo.DemoApplication         : Plant[id=3, commonName='Buddleja', scientificName='Buddleja americana', typeOfPlant='Perennial', minimumGrowingZone='5', maximumGrowingZone='10']
+2022-10-07 17:46:09.335  INFO 20808 --- [           main] com.example.demo.DemoApplication         :
+2022-10-07 17:46:09.335  INFO 20808 --- [           main] com.example.demo.DemoApplication         : Plants found with findByMinimumGrowingZone(5):
+2022-10-07 17:46:09.335  INFO 20808 --- [           main] com.example.demo.DemoApplication         : --------------------------------------------
+2022-10-07 17:46:09.339  INFO 20808 --- [           main] com.example.demo.DemoApplication         : Plant[id=2, commonName='Salvia divinorum', scientificName='Salvia divinorum', typeOfPlant='Perennial', minimumGrowingZone='5', maximumGrowingZone='9']
+2022-10-07 17:46:09.339  INFO 20808 --- [           main] com.example.demo.DemoApplication         : Plant[id=3, commonName='Buddleja', scientificName='Buddleja americana', typeOfPlant='Perennial', minimumGrowingZone='5', maximumGrowingZone='10']
+2022-10-07 17:46:09.339  INFO 20808 --- [           main] com.example.demo.DemoApplication         :
+2022-10-07 17:46:09.339  INFO 20808 --- [           main] com.example.demo.DemoApplication         : Plants found with findByMaximumGrowingZone(9):
+2022-10-07 17:46:09.340  INFO 20808 --- [           main] com.example.demo.DemoApplication         : --------------------------------------------
+2022-10-07 17:46:09.342  INFO 20808 --- [           main] com.example.demo.DemoApplication         : Plant[id=1, commonName='Coastal redwood', scientificName='Sequoia sempervirens', typeOfPlant='Tree', minimumGrowingZone='7', maximumGrowingZone='9']
+2022-10-07 17:46:09.343  INFO 20808 --- [           main] com.example.demo.DemoApplication         : Plant[id=2, commonName='Salvia divinorum', scientificName='Salvia divinorum', typeOfPlant='Perennial', minimumGrowingZone='5', maximumGrowingZone='9']
+2022-10-07 17:46:09.343  INFO 20808 --- [           main] com.example.demo.DemoApplication         :
+2022-10-07 17:46:09.348  INFO 20808 --- [           main] com.example.demo.DemoApplication         : Plants found with a growing zone of 6:
+2022-10-07 17:46:09.350  INFO 20808 --- [           main] com.example.demo.DemoApplication         : --------------------------------------------
+2022-10-07 17:46:09.351  INFO 20808 --- [           main] com.example.demo.DemoApplication         : Plant[id=2, commonName='Salvia divinorum', scientificName='Salvia divinorum', typeOfPlant='Perennial', minimumGrowingZone='5', maximumGrowingZone='9']
+2022-10-07 17:46:09.351  INFO 20808 --- [           main] com.example.demo.DemoApplication         : Plant[id=3, commonName='Buddleja', scientificName='Buddleja americana', typeOfPlant='Perennial', minimumGrowingZone='5', maximumGrowingZone='10']
